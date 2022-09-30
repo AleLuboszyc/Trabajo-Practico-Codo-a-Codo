@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenido {
+    width: 98%;
+    margin: auto;
+}
+
+.icon-paw {
+    float: left;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #17202A;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.icon-paw,h1 {
+    font-size: 1.5em;
+    float: left;
+    animation: flip;
+    animation-duration: 2s;
+}
+
+
+header .contenedor {
+    display: table;
+}
+
+#noticias, h3 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+#noticias, .contenedor-noticias {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.contenedor-noticias {
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+}
+
+
+#bienvenidos, p {
+    font-size: 1.5rem;
+}
+
+
+.bienvenida,h4 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.bienvenida, img {
+    width: 100%;
+}
+
+.grid-contenedor {
+   display: grid;
+   width: 90%;
+   height: 600px;
+   outline: 2px solid;
+   margin: 20px auto;
+
+}
+
+.a {
+    background-color: darkturquoise;
+}
+
+.b {
+    background-color: fuchsia;
+}
+
+.c {
+    background-color: greenyellow;
+}
+
+.d {
+    background-color: orange;
+}
+
+
+
+.copy {
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+.redes {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.redes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.redes li {
+    list-style-type:none;
+}
+
+.redes a {
+    color: #17202A;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+footer, .contenedor-footer {
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+
+@media (min-width: 480px) {
+
+    #bienvenidos, p {
+        font-size: 1.rem;
+    }
+
+
+    #noticias, h3 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .bienvenida,h4 {
+        text-align: center;
+        font-size: 1rem;
+    }
+}    
+
+@media (min-width: 768px) {
+    .redes {
+        width: auto;
+    }
+
+    footer .contenedor-footer {
+        justify-content: space-between;
+    }
+    
+    #bienvenidos, p {
+        font-size: 1.5rem;
+    }
+
+
+    #noticias, h3 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .bienvenida,h4 {
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .contenedor {
+        width: 1000px;
+    }   
+
+    #bienvenidos, p {
+    font-size: 1.5rem;
+}
+
+
+.bienvenida,h4 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#noticias, h3 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+}
