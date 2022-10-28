@@ -7,7 +7,7 @@
         "raza": "Caniche",
         "contacto": "Claudia Gramajo",
         "email": "claugramajo@gmail.com"
-        ,"imagen": "/imagenes/nico1.jpg"
+        ,"imagen": "imagenes/nico1.jpg"
         },
         {
         "id": 2,
@@ -16,7 +16,7 @@
         "raza": "Perro",
         "contacto": "Matias Ale",
         "email": "alemati@gmail.com"
-        ,"imagen": "/imagenes/pedro3.jpg"
+        ,"imagen": "imagenes/pedro3.jpg"
         },
         {
         "id": 3,
@@ -25,7 +25,7 @@
         "raza": "Gato",
         "contacto": "Oriana Junco",
         "email": "oyijunco@gmail.com"
-        ,"imagen": "/imagenes/ema1.jpg"
+        ,"imagen": "imagenes/ema1.jpg"
         },  
         {
         "id": 4,
@@ -34,7 +34,7 @@
         "raza": "Gato",
         "contacto": "Ricardo Darin",
         "email": "richardd@gmail.com"
-        ,"imagen": "/imagenes/simona1.jpg"
+        ,"imagen": "imagenes/simona1.jpg"
         }    
     ] 
 }    
