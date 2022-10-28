@@ -36,6 +36,7 @@
         "email": "richardd@gmail.com"
         ,"imagen": "imagenes/simona1.jpg"
         },
+        {
           "id": 5,
         "nombre": "Ramiro",
         "edad": "5 meses",
@@ -44,6 +45,7 @@
         "email": "carcarcar82@gmail.com"
         ,"imagen": "imagenes/RAMIRO.jpg"
         },
+        {
           "id": 6,
         "nombre": "Poppy",
         "edad": "1 año",
