@@ -35,7 +35,23 @@
         "contacto": "Ricardo Darin",
         "email": "richardd@gmail.com"
         ,"imagen": "imagenes/simona1.jpg"
-        }    
+        },
+          "id": 5,
+        "nombre": "Ramiro",
+        "edad": "5 meses",
+        "raza": "Perro",
+        "contacto": "Marcelo Carcar",
+        "email": "carcarcar82@gmail.com"
+        ,"imagen": "imagenes/RAMIRO.jpg"
+        },
+          "id": 6,
+        "nombre": "Poppy",
+        "edad": "1 año",
+        "raza": "Gato",
+        "contacto": "Gaston Graffigna",
+        "email": "gastongraffigna74@gmail.com"
+        ,"imagen": "imagenes/POPPY.jpg"
+        }
     ] 
 }    
         
